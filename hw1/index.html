@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My first JS Switch</title>
+
+	<script type="text/javascript">
+var size = prompt ("Enter the size of image (xs, s, m, l, xl)");
+switch (size) {
+	case 'xs':{document.write('<img src="image.jpg" alt="image" width="200">')}
+		break;
+	case 's':{document.write('<img src="image.jpg" alt="image" width="300">')}
+		break;
+	case 'm':{document.write('<img src="image.jpg" alt="image" width="400">')}
+		break;
+	case 'l':{document.write('<img src="image.jpg" alt="image" width="500">')}
+		break;
+	case 'xl':{document.write('<img src="image.jpg" alt="image" width="600">')}
+		break;
+		default: {document.write('<img src="image.jpg" alt="image" width="' + size +'">')}
+}
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>
