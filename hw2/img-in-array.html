@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>slider</title>
+	<title>img in array</title>
 	<script type="text/javascript">
 
 var arrImage = new Array (5);
-arrImage[0] = ("<img src='img/11.jpg' width='300' height='300'>");
-arrImage[1] = ("<img src='img/12.jpg' width='300' height='300'>");
-arrImage[2] = ("<img src='img/13.jpg' width='300' height='300'>");
-arrImage[3] = ("<img src='img/14.jpg' width='300' height='300'>");
-arrImage[4] = ("<img src='img/15.jpg' width='300' height='300'>");
+for(var i=0; i<arrImage.length; i++){
+	arrImage[i]=("<img src='img/" + i + ".jpg' width='300' height='300'>");
+}
+
 arrImage=arrImage.join("");
 document.write(arrImage);
 
