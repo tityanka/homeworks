@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+}
+img {
+	height: 100hv;
+	width: 200px;
+}
+.wrap {
+	text-align: center;
+	width: 250px;
+	height: 100hv;
+	margin: 0 auto;
+	padding: 25px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	overflow: hidden;
+	display: inline-block;
+}
+p {
+	text-align: justify;
+	-ms-text-align-last: left;
+	text-align-last: left;
+}
+a {
+	color: violet;
+	text-decoration: none;
+}
+.hidden {
+	display: none;
+}
+.display {
+	display: block;
+}
